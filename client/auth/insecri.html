@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-4C4zMQZH3qyv7DRxjDSbGTHixzgihwSKi2d/BsnuljEkX2LG/dU5+yfM5F5u5by6yxGW7e83TEpDjmv7AmBZLw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+  <link rel = "stylesheet" type = "text/css" href = "insecri.css">   
+
+</head>
+<body>
+  <h1>Sign Up</h1>
+  <form method="POST" action="insecri.php">
+    <label for="nom"><i class="fas fa-user"></i> Name</label>
+    <input type="text" id="nom" name="nom" placeholder="Your name" required>
+
+    <label for="prenom"><i class="fas fa-user"></i> Prenom</label>
+    <input type="text" id="prenom" name="prenom" placeholder="Your name" required>
+
+    <label for="adresse"><i class="fas fa-envelope"></i> Email</label>
+    <input type="email" id="adresse" name="adresse" placeholder="Your email" required>
+
+    <label for="mdp"><i class="fas fa-lock"></i> Password</label>
+    <input type="password" id="mdp" name="mdp" placeholder="Your password" required>
+
+    <label for="code_postal"><i class="fas fa-address-book"></i> Code postal</label>
+    <input type="text" id="code_postal" name="code_postal" placeholder="votre code postal" required>
+
+    <label for="telephone"><i class="fas fa-phone"></i> Phone Number</label>
+    <input type="tel" id="telephone" name="telephone" placeholder="Your phone number" required>
+
+    <button type="submit" name="submit"><i class="fas fa-user-plus"></i> Sign Up</button>
+  </form>
+</body>
+</html>

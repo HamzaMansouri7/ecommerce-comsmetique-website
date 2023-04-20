@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mon Panier</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <h1>Mon Panier</h1>
+    <table>
+        <!-- table content -->
+    </table>
+
+    <form action="consulter-panier.php" method="GET">
+        <input type="hidden" name="clientId" value="1234">
+        <button type="submit">Get Commande</button>
+    </form>
+
+    <button class="btn"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+
+    <button onclick="viderPanier()">Vider le panier</button>
+    <button onclick="validerCommande()">Valider la commande</button>
+
+    <script>
+        function viderPanier() {
+            // TODO: Implement the logic to empty the shopping cart
+            alert("Le panier a été vidé !");
+        }
+
+        function validerCommande() {
+            // TODO: Implement the logic to submit the order
+            alert("La commande a été validée !");
+        }
+    </script>
+</body>
+</html>
