@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-D2jK0/NvIaMC0Dln/WxOyH0UyBcrGz2Lg0vvXam6I5U6l5U6RfU6mt0xL8WKnMV+xJvR/7Dc1M9F1PMhbhGd+w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel = "stylesheet" type = "text/css" href = "ajout-article.css">   
+
+    <title>Ajouter un nouvel article</title>
+</head>
+<body>
+	<h1><i class="fas fa-plus"></i> Ajouter un nouvel article</h1>
+	<form action="ajout-article.php" method="post">
+		<label for="code"><i class="fas fa-barcode"></i> Code:</label>
+		<input type="text" id="code" name="code"><br>
+		<label for="designation"><i class="fas fa-tag"></i> Designation:</label>
+		<input type="text" id="designation" name="designation"><br>
+		<label for="prix"><i class="fas fa-euro-sign"></i> Prix unitaire:</label>
+		<input type="text" id="prix" name="prix"><br>
+		<label for="rayon"><i class="fas fa-book"></i> Rayon:</label>
+		<input type="text" id="rayon" name="rayon"><br>
+		<label for="n_rayon"><i class="fas fa-bars"></i> Numero de rayon:</label>
+		<input type="text" id="n_rayon" name="n_rayon"><br>
+		<input type="submit" value="Ajouter">
+	</form>
+</body>
+</html>

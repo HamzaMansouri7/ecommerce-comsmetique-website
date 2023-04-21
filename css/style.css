@@ -1034,3 +1034,61 @@ section {
   }
 }
 /*# sourceMappingURL=style.css.map */
+
+body {
+  background-color: #f7f7f7;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+  margin-top: 50px;
+}
+
+p {
+  color: #666;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 50px;
+  margin-left: 50px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+button a {
+  color: white;
+  text-decoration: none;
+}
+
+button.secondary {
+  background-color: #f44336;
+  margin-left: 20px;
+}
+
+button.warning {
+  background-color: #ff9800;
+  margin-left: 20px;
+}
+
+button.info {
+  background-color: #2196f3;
+  margin-left: 20px;
+}
